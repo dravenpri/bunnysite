@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: linear-gradient(135deg, #fff5f5 0%, #fff0f7 50%, #fff5f5 100%);
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+.love-letter {
+  font-family: 'Playfair Display', serif;
+  line-height: 1.8;
+}
+
+.promise-card {
+  backdrop-filter: blur(8px);
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(255, 192, 203, 0.2);
+  transition: all 0.3s ease;
+}
+
+.promise-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(255, 182, 193, 0.2);
+}
+
+.intro-modal {
+  backdrop-filter: blur(8px);
+  background: rgba(255, 255, 255, 0.95);
+}
